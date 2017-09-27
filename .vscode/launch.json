@@ -1,0 +1,21 @@
+{
+        "version": "0.2.0",
+        "configurations": [
+
+            {
+                "type": "node",
+                "request": "attach",
+                "name": "Attach to Bcoin",
+                //"program": "${workspaceRoot}/bin/cli",
+                //"stopOnEntry": true,
+                "processId": 34623,
+                "port": 9229
+                //"console": "externalTerminal",
+                // "args": [
+                //     "--network testnet ",
+                //     "--prefix=/Users/harshagoli/.bcoin/testnet",
+                //     "--api-key=iamsatoshi"
+                // ]
+            }
+        ]
+    }
